@@ -1,0 +1,5 @@
+
+
+const getHighestFromObject = (obj) => {
+
+}

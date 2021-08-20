@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "fs": "*",
+    "serverless": "^2.55.0"
+  }
+}

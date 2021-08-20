@@ -1,0 +1,33 @@
+service: election-results
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+
+functions:
+  allResultsByCounty:
+    handler: api/handler.getWinnerByCounty
+    memorySize: 128
+    description: Return the winning primary candidates in each county
+    events:
+      - http: 
+          path: /election-results/county
+          method: get
+  allResultsByState:
+    handler: api/handler.getWinnerByState
+    memorySize: 128
+    description: Return the winning primary candidates in each state
+    events:
+      - http: 
+          path: /election-results/state
+          method: get
+  allResults:
+    handler: api/handler.getWinnerOverall
+    memorySize: 128
+    description: Return the winning primary candidates overall
+    events:
+      - http: 
+          path: /election-results
+          method: get

@@ -1,0 +1,52 @@
+{
+    "Pennsylvania": {
+        "Chester": {
+            "Democrats": {
+                "Humphrey ": 100,
+                "McGovern": 50
+            },
+            "Republicans": {
+                "Nixon": 200,
+                "Ashbrook": 2,
+                "McCloskey": 1
+            }
+        }
+    },
+    "North Carolina": {
+        "Mecklenburg": {
+            "Democrats": {
+                "Rukasuwan ": 100,
+                "Rodriguez": 50,
+                "Tuck": 1
+            },
+            "Republicans": {
+                "Blakely": 200,
+                "Hodges": 2
+            }
+        },
+        "Gaston": {
+            "Democrats": {
+                "Currie ": 300,
+                "Lynn": 75,
+                "Lee": 180
+            },
+            "Republicans": {
+                "Proffitt": 60,
+                "Blah": 2
+            }
+        }
+    },
+    "Florida": {
+        "MiamiDade": {
+            "Democrats": {
+                "Mack": 300,
+                "Rondina": 150,
+                "Crane": 18
+            },
+            "Republicans": {
+                "Crockett": 200,
+                "Winston": 2
+            }
+        }
+    }
+}
